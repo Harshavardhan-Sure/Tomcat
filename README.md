@@ -24,12 +24,18 @@ After Editing these xml files `Restart Tomcat`
 * `./shutdown.sh`
 * `./startup.sh`
 
+### To Deploy WAR file to Tomcat Deployment Directory
+* Paste WAR file in `/opt/tomcat9/webapps/`
+* Sample WAR file : [Sample-WAR](https://github.com/Harshavardhan-Sure/Sample-WAR)
+* To Access : `http://<Public_IP>:8080/myapp`
+
+
 ## Other Useful Commands
-* To check out services are satrted or not :  `ps -ef | grep tomcat`
+* To check out services are started or not :  `ps -ef | grep tomcat`
 
 * To check permissions on startup.sh :  `ls -ltr`
 
-* To Give Excution permissions `sudo chmod +x startup.sh` and `sudo chmod +x shutdown.sh`
+* To Give Execution permissions `sudo chmod +x startup.sh` and `sudo chmod +x shutdown.sh`
 
 ### To Create Link files for startup.sh and shutdown.sh
 
