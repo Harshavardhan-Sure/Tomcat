@@ -25,6 +25,12 @@
 * `tomcatdown`
 
 ## Change Settings to Manage Tomcat
+### To Access Manager App
+1. Delete or Comment `<Valve>`tag in context.xml file.
+   **Location** : `/opt/apache-tomcat-9.0.89/webapps/manager/META-INF/context.xml`
+2. Add Users and Roles in tomcat-users.xml file.
+   **Location** : `/opt/apache-tomcat-9.0.89/conf/tomcat-users.xml`
+
 * [context.xml](https://github.com/Harshavardhan-Sure/Tomcat/blob/main/context.xml)
 * [tomcat-users.xml](https://github.com/Harshavardhan-Sure/Tomcat/blob/main/tomcat-users.xml)
 
