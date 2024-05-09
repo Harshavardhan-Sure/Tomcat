@@ -43,5 +43,10 @@ After Editing these xml files `Restart Tomcat`
 * `ln -s /opt/tomcat9/bin/shutdown.sh /usr/local/bin/tomcatdown`
 
 * To start and stop tomcat Use `tomcatup` `tomcatdown`
+
+## Changing Tomcat Port Number
+* Change port 8080 to desired port which are under HTTP ports
+* `vim /opt/tomcat9/conf/server.xml`
+    
  
 
